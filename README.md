@@ -108,7 +108,7 @@ Demo Video Link: **(https://drive.google.com/file/d/12WDYfA-20ojCJ8aYBWK44fLg1La
 
 ## Live Project Link (Optional)
 
-Live Link: **(paste hosted link here if you deploy on GitHub Pages / Netlify / Vercel)**
+Live Link: **(https://kush-8912.github.io/Apna-Ledger/)**
 
 ---
 
