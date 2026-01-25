@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Ledger</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/png" href="assets/image.png">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Apna Ledger</h1>
+      <p class="subtitle">Track your Credit & Debit easily</p>
+    </header>
+    <main class="container">
+      <div class="grid">
+        <section class="panel">
+          <h2 class="sectionTitle">Add Transaction</h2>
+          <select id="type">
+            <option value="credit">Credit</option>
+            <option value="debit">Debit</option>
+          </select>
+          <input id="amount" type="number" min="1" step="1" placeholder="Amount (example: 500)" />
+          <input id="note" type="text" placeholder="Note (example: groceries)" />
+          <button id="addBtn" type="button">Add</button>
+        </section>
+        <section class="panel">
+          <h2 class="sectionTitle">Summary</h2>
+          <div class="summary">
+            <div class="card">
+              <div>Credit</div>
+              <b id="credit">₹0</b>
+            </div>
+            <div class="card">
+              <div>Debit</div>
+              <b id="debit">₹0</b>
+            </div>
+            <div class="card">
+              <div>Balance</div>
+              <b id="balance">₹0</b>
+            </div>
+          </div>
+          <div class="charts">
+            <div class="chartBox"><canvas id="pieChart"></canvas></div>
+            <div class="chartBox"><canvas id="barChart"></canvas></div>
+          </div>
+          <h2 class="sectionTitle" style="margin-top: 14px">Filter</h2>
+          <div class="filterRow">
+            <select id="filterType">
+              <option value="credit">Credit</option>
+              <option value="debit">Debit</option>
+            </select>
+            <button id="filterBtn" type="button">Filter</button>
+            <button id="showAllBtn" type="button" class="secondary">Show All</button>
+          </div>
+          <h2 class="sectionTitle" style="margin-top: 14px">Transactions</h2>
+          <ul id="list"></ul>
+          <button id="clearAllBtn" type="button" class="secondary">Clear All</button>
+        </section>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+  </body>
+</html>
