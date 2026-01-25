@@ -106,9 +106,9 @@ Demo Video Link: **(https://drive.google.com/file/d/12WDYfA-20ojCJ8aYBWK44fLg1La
 
 ---
 
-## Live Project Link (Optional)
+## Live Project Link
 
-Live Link: **(https://kush-8912.github.io/Apna-Ledger/)**
+Live Link: **<a href="https://kush-8912.github.io/Apna-Ledger/" target="_blank">Apna Ledger</a>**
 
 ---
 
