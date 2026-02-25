@@ -114,5 +114,5 @@ Live Link: **<a href="https://kush-8912.github.io/Apna-Ledger/" target="_blank">
 
 ## Author
 
-**Kushagra**  
+**Kushagra Aggarwal**  
 Created with ❤️ using HTML, CSS and JavaScript.
