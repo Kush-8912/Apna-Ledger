@@ -1,4 +1,4 @@
- 📒 Apna Ledger
+# Apna Ledger
 
 A simple, fully functional **DOM-based Credit & Debit Tracker** built using **HTML, CSS, and Vanilla JavaScript**.  
 It helps users add transactions, view totals (Credit/Debit/Balance), filter transactions, delete entries, clear all data, and visualize spending using charts. Data is stored in the browser using **LocalStorage**, so it remains saved even after refresh.
